@@ -16,7 +16,7 @@ body {
 .background-right {
 	z-index: -1;
 	height: 550px;
-	width: 12rem;
+	width: 10em;
 	position: fixed;
 	transition: all 1s ease-out;
 }
@@ -43,7 +43,7 @@ body {
 	align-items: center;
 	padding-top: 75px;
 	min-height: 100%;
-    transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
 }
 
 .phone {
@@ -53,7 +53,7 @@ body {
 	padding: 10px;
 	border-radius: 35px;
 	position: relative;
-    transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
 }
 
 .phone::before {
@@ -242,7 +242,7 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	margin: 50px 20px;
-    transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
 }
 
 h1 {
@@ -280,42 +280,43 @@ h1 {
 		padding-top: 75px;
 	}
 
-    .hero {
-        align-items: flex-start;
-        margin: 0 0 0 5em;
-    }
-    
-    .hero-text {
-        font-size: 1rem;
-        text-align: left;
-        padding: 0;
-        line-height: 1.5em;
-        max-width: 350px;
-    }
+	.hero {
+		align-items: flex-start;
+		margin: 0 0 0 5em;
+	}
 
-    footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
+	.hero-text {
+		font-size: 1rem;
+		text-align: left;
+		padding: 0;
+		line-height: 1.5em;
+		max-width: 350px;
+	}
+
+	footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
 }
 
 @media (min-width: 1024px) {
-    .background-left {
+	.background-left {
 		width: 30em;
-        height: 750px;
-		border-radius: 10% 10% 60% 60% / 0% 0% 35% 35% ;
-        left: -2.6em
+		height: 750px;
+		border-radius: 10% 10% 60% 60% / 0% 0% 35% 35%;
+		left: -2.6em;
 	}
 
 	.background-right {
 		width: 30em;
-        height: 750px;
-		border-radius: 60% 60% 10% 10% / 35% 35% 0% 0% ;
-        right: -2.6em
+		height: 750px;
+		border-radius: 60% 60% 10% 10% / 35% 35% 0% 0%;
+		right: -2.6em;
 	}
 
-    .hero {
-        align-items: flex-start;
-        margin: 0 0 0 10em;
-    }
+	.hero {
+		align-items: flex-start;
+		margin: 0 0 0 10em;
+	}
+}
